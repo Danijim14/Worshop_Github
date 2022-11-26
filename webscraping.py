@@ -44,3 +44,5 @@ contenido = soup.find('div', attrs={'class': 'td-post-content'})
 items = contenido.find_all('a')
 for item in items:
     print(item['href'])
+    Hola
+    
